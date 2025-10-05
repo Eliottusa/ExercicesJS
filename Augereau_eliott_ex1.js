@@ -143,4 +143,8 @@ const matchSimule = esportVision.simulerResultat("LFL_KC_SLY");
 console.log("Match simulé :");
 console.log(`ID: ${matchSimule.id}, ${matchSimule.jeu}, ${matchSimule.equipeA} vs ${matchSimule.equipeB}, Proba: ${matchSimule.probabiliteA}, Statut: ${matchSimule.statut}, Vainqueur: ${matchSimule.resultat}`);
 
+const matchSimule2 = esportVision.simulerResultat("LFL_GO_BDS");
+console.log("Match simulé 2:");
+console.log(`ID: ${matchSimule2.id}, ${matchSimule2.jeu}, ${matchSimule2.equipeA} vs ${matchSimule2.equipeB}, Proba: ${matchSimule2.probabiliteA}, Statut: ${matchSimule2.statut}, Vainqueur: ${matchSimule2.resultat}`);
+
 
